@@ -8,6 +8,7 @@ import {
 import catchAsyncErrors from '../utils/catchAsyncErrors'
 import swaggerDocument from '../docs/swagger.json'
 
+
 const router = Router()
 
 router.use('/api-docs', swaggerUi.serve)
